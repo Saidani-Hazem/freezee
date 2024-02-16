@@ -1,0 +1,396 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/**header**/
+header {
+  background-color: #eeebec;
+  height: 130px;
+}
+body {
+  background-color: #f8f8f8;
+}
+.logo {
+  position: absolute;
+  margin-left: 21%;
+  margin-top: 45px;
+}
+#pink{
+  color: #e32a62;
+}
+li {
+  position: relative;
+  float: right;
+  list-style-type: none;
+  top: 60px;
+  right: 20%;
+  padding-right: 60px;
+  font-size: 17px;
+}
+.bar {
+  text-decoration: none;
+  color: #7a6666;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.bar:hover {
+  color: #e32a62;
+}
+/** end header START BODY**/
+.coverimage {
+  padding-left: 11%;
+}
+.sousbigimg {
+  background-color: #ebe7e8;
+  width: 100%;
+  height: 250px;
+}
+.textsous {
+  padding-left: 15%;
+  padding-top: 30px;
+}
+.newprodcut {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #7a6666;
+  font-weight: bold;
+}
+.newprodcut {
+  color: #e32a62;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.paragraph {
+  font-size: 19px;
+  color: #7a6666;
+}
+.freeweb {
+  text-decoration: underline;
+  color: #7a6666;
+}
+.freeweb:hover {
+  color: #c8c10d;
+}
+.yellow {
+  display: flex;
+  justify-content: space-around;
+  background-color: #c8c10d;
+  width: 100%;
+  height: 160px;
+  margin-bottom: 0;
+}
+.pink {
+  padding-top: 40px;
+  background-color: #cb3362;
+  width: 100%;
+  height: 300px;
+  margin-top: 0;
+}
+.pin {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tab {
+  width: 70%;
+  padding-left: 160px;
+  height: 100px;
+  padding-top: 30px;
+}
+.h4 {
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: white;
+}
+.sco {
+  width: 50px;
+  width: 50px;
+}
+#fb {
+  padding-left: 350px;
+}
+#ig {
+  padding-right: 350px;
+}
+.copy {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  color: wheat;
+}
+/**ABOUT**/
+.about {
+  background-color: #c8c10d;
+  width: 100%;
+  height: 95px;
+}
+.ab {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  color: white;
+  font-size: 28px;
+  font-family: sans-serif;
+}
+/* * the gray box* */
+.container {
+  display: flex;
+}
+.gray {
+  text-align: center;
+  background-color: #efedee;
+  margin-right: 60px;
+  border-radius: 3px;
+  padding: 20px;
+  font-family: sans-serif;
+  line-height: 2.5rem;
+  color: #7a6666;
+  width: 200px;
+  height: 400px;
+}
+.gray h2 {
+  padding-bottom: 50px;
+}
+.gray a {
+  color: #7a6666;
+}
+.gray a :hover {
+  color: red;
+}
+.txt {
+  padding-left: 70px;
+  width: 600px;
+}
+.gray span {
+  color: #e32a62;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.txt h2 {
+  color: #e32a62;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.links {
+  color: #7a6666;
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-size:14px;
+}
+.links:hover {
+  color: #c8c10d;
+}
+.paragra{
+  font-size: 14px;
+  font-family:sans-serif;
+  color: #7a6666;
+}
+/* *blog* */
+.sec2 {
+  padding: 30px 250px 130px 250px;
+}
+.surface {
+  display: flex;
+  padding: 120px 280px;
+}
+.recentpost {
+  background-color: #efedee;
+  height: 580px;
+margin-left: 30px;
+  width: 290px;
+}
+.posts {
+  height: 870px;
+  width: 750px;
+}
+.strawberry {
+  border-radius: 80%;
+  height: 150px;
+  width: 150px;
+  padding: 23px;
+}
+.newchills {
+  display: flex;
+  font-family: sans-serif;
+  line-height: 1.5rem;
+}
+.newchdesc {
+  color: #7a6666;
+  justify-content: center;
+  font-size: 15px;
+}
+.btnnewchills {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  width: 110px;
+  padding: 10px;
+  border:1.8px solid #7a6666 ;
+  color: #7a6666;
+  top:30px;
+}
+.btnnewchills:hover{
+  background-color:#c8c10d ;
+}
+.titlenewchills h3 {
+  color: #e32a62;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.byadmin{
+  font-size:13px;
+  font-family: sans-serif;
+  color: #7a6666;
+}
+.recentpost div,h2{
+  display: flex;
+  justify-content: center;
+ font-family: sans-serif;
+}
+.byadminrec{
+    display: flex;
+  justify-content: center;
+  font-size:13px;
+  font-family: sans-serif;
+    color: #7a6666;
+}
+.btnrec{
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  width: 110px;
+  padding: 10px;
+  border:1.5px solid #7a6666 ;
+  color: #7a6666;
+  font-family: sans-serif;
+  position: relative;
+  left:55px;
+}
+.btnrec:hover{
+  background-color:#c8c10d ;
+}
+.thisis{
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  padding: 0 30px;
+    color: #7a6666;
+}
+.recentpost h3 ,h2{
+  display: flex;
+  justify-content: center;
+  color: #e32a62;
+  font-family: Arial,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+.berries{
+  display: flex;
+  font-family: sans-serif;
+  line-height: 1.5rem;
+}
+.btnfnl {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  width: 110px;
+  padding: 10px;
+  border:1.8px solid #7a6666 ;
+  color: #7a6666;
+  top:30px;
+  font-family: sans-serif;
+  position: relative;
+  left:750px;
+  top:-100px;
+}
+.btnfnl:hover{
+  background-color:#e32a62 ;
+}
+/* *contact* */
+.boxx{
+  width:60%;
+  height:190px;
+  background-color:rgba(245, 245, 245, 0.6);
+  text-align: center;
+  display: flex;
+}
+.imgcontainer{
+background-image: url(/image/map.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 280px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.checkin{
+  background-color: white;
+  height: 100px;
+}
+form{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:30%;
+  text-align: center;
+  padding-left:310px;
+  padding-top:80px;
+}
+.chek{
+  padding-left:110px;
+  padding-top:45px;
+}
+.loc{
+  padding-top:55px;
+  width:60%;
+  padding-left:40px;
+  
+}
+.loc h2{
+  font-size:22px;
+}
+.loc p{
+  font-size:14px;
+  text-align:left;
+  font-family: sans-serif;
+}
+input{
+  margin:10px 0px;
+  height:28px;
+  width:470px;
+  font-size:17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left:12px;
+}
+textarea{
+  margin:10px 0px;
+  width:470px;
+  font-size:17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left:12px;
+  padding-top:5px;
+}
+.midd{
+  display: flex;
+  justify-content:space-between;
+  padding-bottom:108px;
+}
+.wedlove{
+  background-color:#ebe7e8;
+  height:250px;
+  width:280px;
+  position: relative;
+  top:80px;
+  right:100px;
+  text-align: center;
+  padding:25px;
+}

@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../cours/2lig/SEMESTRE 2/Web2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.showOnStatusbar": false,
+		"liveServer.settings.useWebExt": true
+	}
+}
